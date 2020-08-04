@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		236E8CB624D9A97C0094E19F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236E8CB524D9A97C0094E19F /* Constants.swift */; };
 		23C5C98E24D8167600D797B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C5C98D24D8167600D797B6 /* AppDelegate.swift */; };
 		23C5C99024D8167600D797B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C5C98F24D8167600D797B6 /* SceneDelegate.swift */; };
 		23C5C99224D8167600D797B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C5C99124D8167600D797B6 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		236E8CB524D9A97C0094E19F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		23C5C98A24D8167600D797B6 /* PokeDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C5C98D24D8167600D797B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23C5C98F24D8167600D797B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				23DA7DFE24D87C81008D9FEE /* csv.swift */,
+				236E8CB524D9A97C0094E19F /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -152,7 +155,6 @@
 				6C83A121F1E16FC22EFFAF3B /* Pods-PokeDex.debug.xcconfig */,
 				4FD8A417F624CFBCD0A5E389 /* Pods-PokeDex.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -282,6 +284,7 @@
 				23DA7E0E24D96ADC008D9FEE /* PokemonDetailVC.swift in Sources */,
 				23C5C99024D8167600D797B6 /* SceneDelegate.swift in Sources */,
 				23DA7DFD24D87087008D9FEE /* PokeCell.swift in Sources */,
+				236E8CB624D9A97C0094E19F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

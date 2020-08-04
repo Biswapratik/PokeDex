@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         searchBar.returnKeyType = .done
         pasrsPokemonCSV()
         filteredPokemons = pokemons
-        initAudio()
+//        initAudio()
     }
 
     func initAudio() {
