@@ -18,7 +18,6 @@ class ViewController: UIViewController {
     var pokemons = [Pokemon]()
     var filteredPokemons = [Pokemon]()
     var musicPlayer: AVAudioPlayer!
-    var inSearchMode = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -123,11 +122,9 @@ extension ViewController: UISearchBarDelegate {
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if searchBar.text == nil || searchBar.text == "" {
-            inSearchMode = false
             filteredPokemons = pokemons
             collection.reloadData()
         } else {
-            inSearchMode = true
             let lower = searchBar.text!.lowercased()
             filteredPokemons = pokemons.filter { $0.name.range(of: lower) != nil }
             collection.reloadData()
